@@ -39,7 +39,7 @@
 <nav class="navbar navbar-default navbar-gnl">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color: black; font-weight: bold">Gaming  News Letter</a>
+      <a class="navbar-brand" href="#" style="color: black; font-weight: bold">Gaming News Letter</a>
     </div>
     <ul class="nav navbar-nav">
 <?php wp_nav_menu(
