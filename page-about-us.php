@@ -53,11 +53,7 @@
             </div>
             <div class="flip-card-back">
 
-              <span>Dr Sonia Rahbani</span>
-              <p>Ceo and owner of pharmacy rahbani & rahbani laser center dermapro</p>
-              <p></p>
-              <p>Pharmacist</p>
-              <span>Info: 03 637 937</span>
+              <span>Youssef A</span>
 
             </div>
           </div>
