@@ -2,6 +2,11 @@
 Theme Name: Test Theme
 Author: Youss
 */
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Lato:900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:700i&display=swap);
 
 body{
     background-color: gray;
@@ -22,10 +27,19 @@ header{
 
 .navbar > li {
 
+  color: #6495ED;
+  font-weight: bold;
+  font-family: Merriweather;
   padding-left: 30px;
   margin-right: 50px;
   margin-left: 10px;
+  text-decoration: none;
 
+}
+
+.navbar > li :hover {
+
+  text-decoration: none;
 }
 
 
@@ -160,7 +174,7 @@ header{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: rgb(46, 194, 46);
+    background-color: #6495ED;
     color: white;
     transform: rotateY(180deg);
   }
@@ -169,12 +183,7 @@ header{
     margin-right: 10px;
   }
 
-  @import "compass/css3";
-
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
-@import url(https://fonts.googleapis.com/css?family=Lato:900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:700i&display=swap);
-
+  
 *, 
 *:before, 
 *:after {
@@ -224,8 +233,8 @@ footer{
 
 .btn{
   margin-top: 20px;
-  background-color: rgb(46, 194, 46);
-  border-color:  rgb(46, 194, 46);
+  background-color: #6495ED;
+  border-color:  #6495ED;
   font-family: 'Noto Sans';
 }
 
@@ -241,11 +250,11 @@ color: black;
  
 
 li > a{
-  color: rgb(46, 194, 46);
+  color: #6495ED;
 }
 
 a:hover{
-  color: rgb(46, 194, 46);
+  color: #6495ED;
 }
 
 
