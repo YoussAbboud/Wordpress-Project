@@ -1,0 +1,336 @@
+/*
+Theme Name: Test Theme
+Author: Youss
+*/
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar{
+  background-color: gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar > li {
+
+  padding-left: 30px;
+  margin-right: 50px;
+margin-left: 10px;
+
+}
+
+
+@media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.2s;
+      -webkit-animation-duration: 0.2s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  
+  /* Other styles for the page not related to the animated dropdown */
+  
+  body {
+    
+    background: #D5F5E3
+    
+  }
+
+  input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width */
+  input[type=text]:hover 
+  {
+    width: 200px;
+  }
+
+  input[type=search] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width */
+  input[type=search]:hover 
+  {
+    width: 200px;
+  }
+
+
+  .navbar {
+    min-height: 80px;
+  
+  }
+
+  .nav-item{
+    margin-right: 20px;
+  }
+
+  .footer-heading{
+    margin-top: 20px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 230px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+     /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(46, 194, 46);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  #img1{
+    margin-right: 10px;
+  }
+
+  @import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Lato:900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:700i&display=swap);
+
+*, 
+*:before, 
+*:after {
+   box-sizing: border-box; 
+}
+
+html, body {
+  background: #f1f1f1;
+}
+
+h1 {
+   text-align: center;
+   text-shadow: (1px 1px 0 rgba(black, 1));
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 10px auto;
+}
+
+  input, textarea{
+     border:0; outline:0;
+     padding: 1em;
+     border-radius: 4px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     box-shadow: (0 1px 1px rgba(black, 0.1));
+     resize: none;
+     font-family: 'Lato';
+    
+  }
+
+input[type=submit]{
+  background-color: black;
+  font-family: 'Noto Sans';
+  color: white;
+  width: 200px;
+}
+
+footer{
+  font-family: 'Noto Sans';
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.btn{
+  margin-top: 20px;
+  background-color: rgb(46, 194, 46);
+  border-color:  rgb(46, 194, 46);
+  font-family: 'Noto Sans';
+}
+
+.btn:hover{
+
+background-color: transparent;
+border-color: grey;
+border-width: 3px;
+color: black;
+
+}
+
+ 
+
+li > a{
+  color: rgb(46, 194, 46);
+}
+
+a:hover{
+  color: rgb(46, 194, 46);
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent}
+
+#priv{
+  color: #bbb;
+  font-size: x-small;
+  text-decoration: underline;
+}
+
+#priv:hover{
+  color: #bbb;
+  font-size: x-small;
+  text-decoration: underline;
+}
+
+.p{
+
+font-weight: bold;
+font-family: monospace;
+}
+
+tr > td {
+
+  color: black; 
+  font-weight: bold; 
+  font-family: monospace;
+
+}
