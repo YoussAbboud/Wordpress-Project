@@ -44,8 +44,18 @@ header{
 
 ul > li {
 
+margin-top: 20px;
+margin-bottom: 20px;
 font-weight: bold;
 font-family: Merriweather;
+text-decoration: none;
+list-style-type: none;
+
+}
+
+ul > li :hover {
+
+text-decoration: none;
 
 }
 

@@ -21,10 +21,19 @@
     </h3>
   </div>
   <div class="carousel-item active">
-    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/playstation.jpg" alt="First slide">
+    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/valve.jpg" alt="First slide">
   </div>
   <div class="carousel-item">
-    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/valve.jpg" alt="Second slide">
+    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/playstation.jpg" alt="Second slide">
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/blizzard.jpg" alt="Second slide">
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/origin.jpg" alt="Second slide">
+  </div>
+  <div class="carousel-item">
+    <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?> /img/uplay.jpg" alt="Second slide">
   </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -37,7 +46,7 @@
 </a>
 </div>
         </div>
-        <div class="col-lg-3 mx-auto order-lg-3 align-self-center" style="bachround-color: gray;">
+        <div class="col-lg-3 mx-auto order-lg-3 align-self-center" style="backround-color: gray;">
           <div class="container">
             <div class="row">
 

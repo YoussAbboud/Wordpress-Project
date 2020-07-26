@@ -6,13 +6,19 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="../img/unnamed.jpg" alt="First slide">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/playstation.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../img/random1.jpg" alt="Second slide">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/valve.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../img/inside5.jpg" alt="Third slide">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/blizzard.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/uplay.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/origin.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
