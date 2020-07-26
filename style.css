@@ -42,6 +42,13 @@ header{
   text-decoration: none;
 }
 
+ul > li {
+
+font-weight: bold;
+font-family: Merriweather;
+
+}
+
 
 @media (min-width: 992px) {
     .animate {
